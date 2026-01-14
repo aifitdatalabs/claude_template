@@ -11,7 +11,7 @@
 
 ## 3. 프로젝트 생성
 
-### 프로젝트 생성 프롬프트
+#### 프로젝트 생성 프롬프트
 ```md
 /guides/1_projects/[프로젝트명.md] 파일 기준으로 초기 앱을 만들어줘.
 [프로젝트명] 폴더 생성 후 프로젝트 셋업하고,
@@ -20,13 +20,13 @@ tab 네비게이션 구조와 기본 스타일만 구현해줘.
 
 ## 4. github 연결
 
-### 1) 저장소 연결 프롬프트
+#### 1) 저장소 연결 프롬프트
 ```md
 guides/2_github/[프로젝트명].md를 참고 해서 프로젝트에 Git 초기화하고 GitHub 저장소 연결해줘.
 .gitignore도 React Native용으로 설정해줘.
 ```
 
-### 2) 브랜치 생성 프롬프트
+#### 2) 브랜치 생성 프롬프트
 ```md
 guides/2_github/[프로젝트명].md를 참고 해서 develop 브랜치 만들고, feature/login 브랜치에서 작업 시작해줘.
 ```
@@ -34,6 +34,14 @@ guides/2_github/[프로젝트명].md를 참고 해서 develop 브랜치 만들�
 홈화면 부터 작업 할 건데, guides/2_github/[프로젝트명].md 파일 참고 해서, 적절한  브랜치 생성해서 작업 시작할 수 있도록 해줘.
 ```
 
-## 5. 로그인
+## 5. 로그인 및 DB 연결
 
-## 6. DB
+#### 인증 설정 프롬프트
+```md
+guides/3_login/[프로젝트명].md 파일을 참고 해서 Supabase 인증을 설정 할 건데, Google, Kakao 소셜 로그인을 추가해줘
+```
+
+#### supabase 및 인증 업체 수동 설정
+```md
+[guides/3_login/authentication/tempate.md]참조
+```

@@ -11,8 +11,8 @@ npm install @supabase/supabase-js @react-native-async-storage/async-storage
 
 ### 환경변수 (.env)
 ```env
-SUPABASE_URL=https://[project-id].supabase.co
-SUPABASE_ANON_KEY=[anon-key]
+SUPABASE_URL=https://uasgohqrixjytngydykk.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVhc2dvaHFyaXhqeXRuZ3lkeWtrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY2MDg5MjYsImV4cCI6MjA4MjE4NDkyNn0.XWFZ3SbFhl7BGX6URNDcOtA6pd4QstYM2iVNHHBg6Cw
 ```
 
 ### src/services/supabase.ts
@@ -575,8 +575,8 @@ module.exports = {
 
 3. 프로젝트 루트에 `.env` 파일 생성
 ```env
-SUPABASE_URL=https://[project-id].supabase.co
-SUPABASE_ANON_KEY=[anon-key]
+SUPABASE_URL=https://uasgohqrixjytngydykk.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6...
 ```
 
 > ⚠️ `.env` 파일은 `.gitignore`에 포함되어야 합니다.
